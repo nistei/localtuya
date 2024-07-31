@@ -136,7 +136,7 @@ class LocaltuyaCover(LocalTuyaEntity, CoverEntity):
             self.debug("Done")
 
         elif self._config[CONF_POSITIONING_MODE] == COVER_MODE_POSITION:
-            converted_position = int(kwargs[ATTR_POSITION] * self._config[CONF_SCALING])
+            converted_position = int(kwargs[ATTR_POSITION] / self._config[CONF_SCALING])
             if self._config[CONF_POSITION_INVERTED]:
                 converted_position = 100 - converted_position
 
