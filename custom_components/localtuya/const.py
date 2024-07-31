@@ -82,7 +82,7 @@ CONF_FAN_DIRECTION_FWD = "fan_direction_forward"
 CONF_FAN_DIRECTION_REV = "fan_direction_reverse"
 CONF_FAN_DPS_TYPE = "fan_dps_type"
 
-# sensor
+# sensor and cover
 CONF_SCALING = "scaling"
 
 # climate
