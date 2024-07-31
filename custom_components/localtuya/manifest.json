@@ -1,5 +1,5 @@
 {
-  "domain": "localtuya",
+  "domain": "nist_localtuya",
   "name": "[nistei] LocalTuya integration",
   "codeowners": [
     "@rospogrigio", "@postlund", "@nistei"
